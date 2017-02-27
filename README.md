@@ -197,7 +197,7 @@ function. This may seem a little strange, but we can treat this controller the s
 is that this controller can only apply to this directive. Knowing that this controller is the same as what we are used to working with, let's inject `$scope`
 and `lessonService` just like we're used to.
 
-Since we're injecting `lessonService`, let's go add the function we need. Create a method in your `lessonService` named `getSchedule` that simply returns a GET request to your
+Since we're injecting `lessonService`, let's go add the function we need. Create a method in your `lessonService.js` named `getSchedule` that simply returns a GET request to your
 schedule.json (You probably haven't done an $http request to one of your own files before, but it works just the same. `return $http.get('schedule.json');` If you have nested your files, make sure to include the path to the file.).
 
 Because we've injected `lessonService` into our directive's controller we can now access that function in the same way we are used to in other controllers.

@@ -1,2 +1,7 @@
-<h3>Lesson Hider</h3>
-{{lessonsArray}}
+<li ng-hide="hide">
+  {{ lesson }}
+  <button ng-click="dayAlert({ lesson: lesson, day: lessonDay })">click</button>
+  <input ng-click="changeStrike()" ng-checked="checkedBox" type="checkbox"></input>
+  <button ng-click="removeLesson({lesson: lesson})">del</button>
+
+</li>

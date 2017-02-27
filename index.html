@@ -9,7 +9,11 @@
       <div ng-controller="lessonCtrl">
         Work?
         {{test}}
-        <lesson-hider></lesson-hider>
+
+        <ul>
+          <lesson-hider ng-repeat="lesson in lessons" day-alert="announceDay(lesson, day)" lesson="lesson" remove-lesson="removeLesson(lesson)">
+          </lesson-hider>
+        </ul>
       </div>
 
     </div>
@@ -18,5 +22,6 @@
     <script src="app.js" charset="utf-8"></script>
     <script src="lessonCtrl.js" charset="utf-8"></script>
     <script src="lessonHider.js" charset="utf-8"></script>
+    <script src="lessonService.js" charset="utf-8"></script>
   </body>
 </html>
