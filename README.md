@@ -4,16 +4,16 @@
 
 ## Objective
 
-Create a simple directive that modifies a template.
+xCreate a simple directive that modifies a template.
 
-Today we will be building a custom directive that checks whether a lesson is already in the provided schedule, and strikes through that lesson if it is. We will
-cover the fundamentals of directives and demonstrate a real-world use case that will allow you to better understand the power of directives.
+xToday we will be building a custom directive that checks whether a lesson is already in the provided xschedule, and strikes through that lesson if it is. We will
+xcover the fundamentals of directives and demonstrate a real-world use case that will allow you to xbetter understand the power of directives.
 
-![alt text](https://github.com/DevMountain/lesson-hider-directive/blob/master/preview.png?raw=true, "Example of the directive in use.")
+x![alt text](https://github.com/DevMountain/lesson-hider-directive/blob/master/preview.png?raw=true, "Example of the directive in use.")
 
-## Step 1: Initializing the file structure
+x## Step 1: Initializing the file structure
 
-All that is provided is the schedule.json and app.js, so let's start by laying out the skeleton of our app. We will need:
+xAll that is provided is the schedule.json and app.js, so let's start by laying out the skeleton of our app. We will need:
 
 * 'index.html'
 * 'lessonCtrl.js'
@@ -331,4 +331,3 @@ prohibited. Excerpts and links may be used, provided that full and clear credit 
 content.
 
 <img src="https://devmounta.in/img/logowhiteblue.png" width="250">
-
